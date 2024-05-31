@@ -136,4 +136,5 @@ class trainer():
 if __name__ == '__main__':
     Trainer = trainer(plot = True)
     Train_set = DScreate('train_1000/img', 'train_1000/mask')
-    Trainer.trainwithsave(savedest="Model",modelname='R2U-Net', channel_in=1, channel_target=2, trainset=Train_set, epoch=3)
+    # Trainer.trainwithsave(savedest="Model",modelname='R2U-Net', channel_in=1, channel_target=2, trainset=Train_set, epoch=3)
+    Trainer.train(modelname='R2U-Net', channel_in=1, channel_target=2, trainset=Train_set, epoch=3)
