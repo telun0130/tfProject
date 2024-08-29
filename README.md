@@ -1,5 +1,6 @@
 # 工件裂痕偵測
-## Target：segment the crack on metal component with high accuracy  
+## Target：segment the crack on metal component with high accuracy
+This project 
 ### Function Included
   - data preprocessing  
   - dataset build  
