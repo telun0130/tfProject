@@ -1,6 +1,7 @@
 # 工件裂痕偵測
 ## Target：segment the crack on metal component with high accuracy
-This project 
+This project use Tensorflow as main framework, develope the CNN, FCN, U-Net model training, evaluate, predict functionality.
+And use module design to separate each functionality increase the 
 ### Function Included
   - data preprocessing  
   - dataset build  
